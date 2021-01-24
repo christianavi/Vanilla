@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Vanilla",
+    "version": "0.1",
+    "description": "Clear ads from search results.",
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["content.js"]
+        }
+      ],
+    "icons": {
+        "16": "img/vanilla-16.png",
+        "32": "img/vanilla-32.png",
+        "48": "img/vanilla-64.png",
+        "128": "img/vanilla-128.png"
+  },
+    "browser_action": {"default_popup": "tooltip.html"}
+}
