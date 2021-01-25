@@ -1,27 +1,29 @@
-var yahoo = window.location.host.includes("search.yahoo");
+function ext() {
 
+    var ads = [
+        ".searchCenterTopAds", ".searchRightBottomAds", ".searchCenterBottomAds",
+        "#taw", "#bottomads",
+        ".bad", ".b_adBottom"
+    ]
 
-if (yahoo == false) {
-    if (window.location.host == "www.google.com"){
-        console.log("🍦 Removing ads from " + window.location.host)
-        document.getElementById("taw").style.display = "none"
-        console.log("🍦 Ads have been cleared.")
+    console.log("[Vanilla] Attempting to remove ads from " + window.location.host) 
+    for (let i = 0; i < ads.length; i++) {
+        if (ads[i]) {
+            try {
+                document.querySelector(ads[i]).style.display = "none"
+                console.log("[Vanilla] " + ads[i] + " is cleared.")
+            } catch (error) {
+                console.error(error);
+            }
+        }       
     }
-    else if (window.location.host == "www.bing.com"){
-        console.log("🍦 Removing ads from " + window.location.host)
-        document.getElementsByClassName("b_ad")[0].style.display = "none"
-        document.getElementsByClassName("b_adBottom")[0].style.display = "none"
-        console.log("🍦 Ads have been cleared.")
-    }
+    console.log("[Vanilla] Success.")
 }
 
-else if (yahoo == true){
-    console.log("🍦 Removing ads from " + window.location.host)
-    document.getElementsByClassName("searchCenterTopAds")[0].style.display = "none"
-    document.getElementsByClassName("searchRightBottomAds")[0].style.display = "none"
-    document.getElementsByClassName("searchCenterBottomAds")[0].style.display = "none"
-    console.log("🍦 Ads have been cleared.")
-}
-else {
-    console.log("🍦 Apparently, this is one of the unforseen events.")
+let se = ["google", "bing", "search.yahoo"];
+for (let x = 0; x < se.length; x++) {
+  support = window.location.host.includes(se[x])
+  if (support == true) {
+    window.onload = ext;
+  }
 }
