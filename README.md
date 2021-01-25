@@ -1,4 +1,10 @@
-# Vanilla 🍦
+<h1> <strong style="
+    background: -webkit-linear-gradient(45deg, #0496FF, #A133FC, #FF6B66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">
+Vanilla
+</strong>🍦
+</h1>
 A chromium extension that hides ads from search engines such as Google, Bing and Yahoo!
 
 ## Relevant search results
@@ -13,4 +19,7 @@ Removes ads from search results leaving you only with the results relevant to yo
 4. Select Load unpacked extension and choose the extracted folder.
 
 ## License
-Vanilla is licensed under the **[MIT License](https://github.com/christianavi/Vanilla/blob/main/LICENSE)**.
+Vanilla is licensed under the <a href="https://github.com/christianavi/Vanilla/blob/main/LICENSE"><strong style="
+    background: -webkit-linear-gradient(45deg, #0496FF, #A133FC, #FF6B66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;">MIT License<strong></a>
