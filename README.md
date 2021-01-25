@@ -5,6 +5,7 @@
 Vanilla
 </strong>🍦
 </h1>
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/christianavi/Vanilla/blob/main/LICENSE)
 A chromium extension that hides ads from search engines such as Google, Bing and Yahoo!
 
 ## Relevant search results
