@@ -1,0 +1,29 @@
+body, h1, div {
+    margin: 0px;
+}
+body {
+    font-size: 15px;
+    padding: 15px;
+    background-color: #222222;
+    color: white;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(45deg, #0496FF, #A133FC, #FF6B66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    font-weight: bolder;
+    
+}
+
+div {
+    min-width: 400px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
