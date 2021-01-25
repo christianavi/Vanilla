@@ -14,10 +14,10 @@
         }
       ],
     "icons": {
-        "16": "img/vanilla-16.png",
-        "32": "img/vanilla-32.png",
-        "48": "img/vanilla-64.png",
-        "128": "img/vanilla-128.png"
+        "16": "img/vanilla_16.png",
+        "32": "img/vanilla_32.png",
+        "48": "img/vanilla_64.png",
+        "128": "img/vanilla_128.png"
   },
     "browser_action": {"default_popup": "popup/popup.html"}
 }

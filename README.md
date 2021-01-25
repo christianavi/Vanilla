@@ -13,4 +13,4 @@ Removes ads from search results leaving you only with the results relevant to yo
 4. Select Load unpacked extension and choose the extracted folder.
 
 ## License
-Vanilla is licensed under the **[MIT License](https://github.com/christianavi/Vanilla/blob/main/LICENSE)**
+Vanilla is licensed under the **[MIT License](https://github.com/christianavi/Vanilla/blob/main/LICENSE)**.
