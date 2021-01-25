@@ -5,10 +5,12 @@
     "description": "Clear ads from search results.",
     "content_scripts": [
         {
+          "js": ["content.js"],
           "matches": [
             "<all_urls>"
           ],
-          "js": ["content.js"]
+          "run_at": "document_start",
+          "all_frames": true
         }
       ],
     "icons": {
@@ -17,5 +19,5 @@
         "48": "img/vanilla-64.png",
         "128": "img/vanilla-128.png"
   },
-    "browser_action": {"default_popup": "tooltip.html"}
+    "browser_action": {"default_popup": "popup/popup.html"}
 }
