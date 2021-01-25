@@ -5,6 +5,9 @@
 Vanilla
 </strong>🍦
 </h1>
+
+![GitHub manifest version](https://img.shields.io/github/manifest-json/v/christianavi/Vanilla) ![GitHub](https://img.shields.io/github/license/christianavi/Vanilla) 
+
 A chromium extension that hides ads from search engines such as Google, Bing and Yahoo!
 
 ## Relevant search results
