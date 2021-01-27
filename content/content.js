@@ -3,7 +3,7 @@ function ext() {
     var ads = [
         ".searchCenterTopAds", ".searchRightBottomAds", ".searchCenterBottomAds",
         "#taw", "#bottomads",
-        ".bad", ".b_adBottom"
+        ".b_ad", ".b_adBottom"
     ]
 
     console.log("[Vanilla] Attempting to remove ads from " + window.location.host) 

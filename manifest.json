@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
     "name": "Vanilla",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Clear ads from search results.",
     "content_scripts": [
         {
-          "js": ["content.js"],
+          "js": ["content/content.js"],
           "matches": [
             "<all_urls>"
           ],
