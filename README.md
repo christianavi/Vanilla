@@ -24,7 +24,7 @@ Remove ads from search results leaving you only with the results that are actual
 ### Manual
 > Vanilla is not yet available on Chrome Web Store, so Chrome users will have to install manually.
 1. Clone and unpack the [repository](/christianavi/Vanilla/archive/main.zip).
-2. Go to [chrome://extensions](chrome://extensions) for Chrome or [edge://extensions](edge://extensions) for Edge.
+2. Go to `chrome://extensions` for Chrome or `edge://extensions` for Edge.
 3. Enable **Developer Mode**.
 4. Select **Load unpacked extension** and choose the extracted folder.
 
